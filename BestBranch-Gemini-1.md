@@ -1,31 +1,21 @@
-# Team Members of BestBranch
-| StudentID | Student name |
+# 🌌 **Gemini Actors** 🌌
+
+| 👥 **Actors** | ⚙️ **Operation Level** |
 | --- | --- |
-|6488018 | Ramita Deeprom |
-|6488030 | Sushawapak Kancharoendee |
-|6488046 | Poramet  Kaewpradub |
-|6488079 | Burit Sihabut |
-|6488173 | Thanat  Phichitphanphong |
-|6488201 | Piangfa Boonkaew |
+| 🧑‍🚀 **Astronomer** | Astronomers can access observing level for planning, observing, and monitoring modes. |
+| 🧑‍🔬 **Science Observer** | Science Observer can access observing and monitoring modes. |
+| 🛠️ **Telescope Operator** | Telescope Operator can access observing, maintenance, and test levels, which include observing, monitoring, operation, and testing modes. |
+| 🧑‍💼 **Support** | Support can access maintenance and test levels for monitoring, operation, and testing modes. |
+| 👨‍💻 **Developer** | Developer can access maintenance and test levels for monitoring and testing modes. |
+| 🛡️ **Administrator** | Administrator can access observing, maintenance, and test levels, which include monitoring and administrative modes. |
 
+---
 
+# 🔧 **Gemini Functional and Non-Functional Requirements** 🔧
 
-# Gemini Actors
+## 📋 **User requirement**
 
-| Actors | Operation Level |
-| --- | --- |
-| Astronomer | Astronomers can access observing level for planning, observing, and monitoring modes. |
-| Science Observer | Science Observer can access observing for observing and monitoring mode. |
-| Telescope Operator | Telescope operator can access observing, maintenance, and test level which include observing, monitoring, operation, and testing mode. |
-| Support | Support can access maintenance, and test levels for monitoring, operation, and testing mode.  |
-| Developer | Developer can access maintenance and test levels for monitoring, and testing mode. |
-| Administrator | Administrator can access observing, maintenance, and test levels which include monitoring and administrative modes. |
- 
- # Gemini Functional, Non-Functional Requirement
-
-## **User requirement**
-
-### Functional
+### ⚙️ Functional
 
   
 ****2.2 Operational levels****
