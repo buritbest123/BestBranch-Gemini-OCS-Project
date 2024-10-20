@@ -1,3 +1,97 @@
+# 🌟 **BestBranch - Gemini Project** 🌟
+
+Welcome to the **Gemini Project**, where we focus on managing the operations of the Gemini telescope system! This system helps astronomers, operators, and developers coordinate astronomical observations efficiently. 🚀🔭
+
+## 👥 **Team Members**
+
+| 🎓 Student ID | 🧑‍🎓 Student Name |
+| ------------- | ---------------- |
+| 6488018        | Ramita Deeprom   |
+| 6488030        | Sushawapak Kancharoendee |
+| 6488046        | Poramet Kaewpradub |
+| 6488079        | Burit Sihabut    |
+| 6488173        | Thanat Phichitphanphong |
+| 6488201        | Piangfa Boonkaew |
+
+## 🌌 **Gemini Actors and Their Roles**
+
+| 🧑‍🚀 Actor         | ⚙️ Operation Level |
+| ------------------ | ------------------ |
+| 🌠 Astronomer       | Observing, Planning, Monitoring |
+| 🧑‍🔬 Science Observer | Observing, Monitoring |
+| 🛠️ Telescope Operator | Observing, Maintenance, Test |
+| 🧑‍💼 Support         | Maintenance, Test |
+| 👨‍💻 Developer        | Maintenance, Test |
+| 🛡️ Administrator    | Observing, Maintenance, Test, Admin |
+
+## 📋 **Functional Requirements**
+
+- **🌐 Operational Levels**: Observing, Maintenance, Test.
+- **🔑 Access Modes**: Observing, Monitoring, Operation, Planning, Testing, Admin.
+- **👥 User Privileges**: Varies based on roles like astronomer, operator, developer, and administrator.
+
+## ⚙️ **Non-Functional Requirements**
+
+- **🌍 Remote Access**: Supports remote control from designated locations.
+- **⏱️ Performance**: Commands executed within 2 seconds; status updates every 4 seconds.
+
+---
+
+## Setup and Execution 🚀
+
+### 1. Build the Project:
+
+```bash
+./gradlew build
+```
+
+### 2. Docker Build:
+
+```bash
+docker build -t best_branch/best_branch .
+```
+
+### 3. Run the Project:
+
+```bash
+docker run -d -p 8080:8080 --name bestGemini best_branch/best_branch:latest
+```
+
+### 4. Access the Application:
+
+Open `http://localhost:8080` in your browser to start the application.
+
+---
+
+## Use Cases 📝
+
+### Create SciPlan 🌠
+
+1. Go to the "Create SciPlan" page.
+2. Fill in the details, including Data Processing requirements.
+3. Submit the SciPlan to see it on the dashboard.
+
+### Test SciPlan 🧪
+
+1. Navigate to "Test SciPlan".
+2. Click "Test" to initiate testing in OCS.
+3. If the test fails, you'll be redirected to the results page.
+
+### Submit SciPlan 📤
+
+1. After testing, navigate to "Submit SciPlan".
+2. Click "Submit" and review the final result.
+
+---
+
+## Development Pattern ⚙️
+
+We use an adapter pattern to convert SciPlan into SciencePlan for compatibility with the OCS testing feature.
+
+---
+
+This README merges both sections, keeping the content short and clear while maintaining readability and a professional structure.
+
 # Step how to execute our project
 
 0. Run ./gradlew build
